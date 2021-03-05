@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meme´s Restaurant Menú Digital. Foody Carte</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/estilo-memes-perfil.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo-modal.css">
+
+	<link rel="shortcut icon" href="img/logo-restaurant-memes.png" />
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+	<div class="row">	
+
+		<!-- Contenedor cabecera -->
+		<div class="regresar-btn">
+			<a href="memes-restaurant.html"><img src="img/regresar.png" width="70" height="70"></a>
+			
+		</div>
+	
+
+
+
+		<div id="contenedor-categorias" class="contenedor-categorias">
+
+			
+			<div class="cabecera-menu">
+				<img src="img/logo-restaurant-memes.png" width="168" height="168" alt="Logotipo Meme's Restaurant">
+				<h2>MEME'S RESTAURANT</h2>
+				<p>Restaurant de comida tipica, con platillos excelentes, antojables, con un excelente servicio.</p>
+
+			</div>
+
+		</div>	
+
+		<div class="mapa">
+			<h3>Ubicación<br>del Restaurant</h3>
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.559604707815!2d-105.23727308604212!3d20.606034907452663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145f2dacccb3f%3A0xeaf9575faf1f90a5!2sRestaurant%20Meme%C2%B4s!5e0!3m2!1ses-419!2smx!4v1614568905558!5m2!1ses-419!2smx" width="375" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+		</div>
+
+
+		<div id="myBtn" class="llamar-restaurant">
+					<img src="img/llamar.png" width="93" height="120" alt="Como llegar al restaurant">
+					<h4>NUESTRO TELÉFONO <br>322 123 1234</h4>
+
+
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content">
+					  	<span class="close">&times;</span>
+					    <div class="modal-header">
+					      
+					      <h3>¿QUIERES LLAMAR AHORA?</h3>
+					    </div>
+					    <div class="contenedor-numero">
+
+					      <div class="img-telefono"><img src="img/llamar.png" width="80" height=""></div>
+					      <div class="numero-cel"><p>322 123 1234</p></div>
+
+					    </div>
+					    <div class="modal-footer">
+
+					     <a href="tel:32212341234"><button>LLAMAR</button></a> 
+					    </div>
+					  </div>
+
+					</div>
+
+					<script>
+					// Get the modal
+					var modal = document.getElementById("myModal");
+
+					// Get the button that opens the modal
+					var btn = document.getElementById("myBtn");
+
+					// Get the <span> element that closes the modal
+					var span = document.getElementsByClassName("close")[0];
+
+					// When the user clicks the button, open the modal 
+					btn.onclick = function() {
+					  modal.style.display = "block";
+					}
+
+					// When the user clicks on <span> (x), close the modal
+					span.onclick = function() {
+					  modal.style.display = "none";
+					}
+
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function(event) {
+					  if (event.target == modal) {
+					    modal.style.display = "none";
+					  }
+					}
+					</script>
+
+
+
+
+
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Footer -->
+
+		<footer>
+			<div class="footer">
+			
+
+				<div class="links-footer">
+					<a href="muy-pronto.html">AYUDA</a>
+					<a href="muy-pronto.html">REGISTRATE</a>
+					<a href="muy-pronto.html">AVISO DE PRVACIDAD</a>
+				</div>	
+
+
+				<p>by Foody Carte - 2021</p>
+				
+
+			</div>	
+
+
+
+
+
+
+		</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+</div>
+
+</body>
+</html>

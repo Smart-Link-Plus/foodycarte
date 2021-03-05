@@ -1,0 +1,443 @@
+* {
+	font-family: helvetica;
+	/* Avenir Next, medium. Arista 2.0 Light. Regular. Avenir Next, Demi Bold  */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	src:url('../fuentes/Arista2.0 Alternate light.ttf');
+	font-family:'aristalightalrt';
+}
+
+@font-face {
+	src:url('../fuentes/Arista2.0.ttf');
+	font-family:'arista';
+}
+
+
+
+
+/*  dispositivos grandes  */
+
+@media (min-width: 992px) {
+
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+
+		float: left;
+	
+		
+
+	}
+
+	.col-lg-1 {
+		width: 8.33%;
+	}
+
+	.col-lg-2 {
+		width: 16.66%;
+	}
+
+	.col-lg-3 {
+		width: 25%;
+	}
+
+	.col-lg-4 {
+		width: 33%;
+	}
+
+	.col-lg-5 {
+		width: 41.66%;
+	}
+
+	.col-lg-6 {
+		width: 50%;
+	}
+
+	.col-lg-7 {
+		width: 58.33%;
+	}
+
+	.col-lg-8 {
+		width: 66.66%;
+	}
+
+	.col-lg-9 {
+		width: 74.99%;
+	}
+
+	.col-lg-10 {
+		width: 83.33%;
+	}
+
+	.col-lg-11 {
+		width: 91.66%;
+	}
+
+	.col-lg-12 {
+		width: 100%;
+	}
+
+
+	
+
+}
+ 
+
+/*  dispositivos medianos  */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+
+		float: left;
+		
+
+	}
+
+	.col-md-1 {
+		width: 8.33%;
+	}
+
+	.col-md-2 {
+		width: 16.66%;
+	}
+
+	.col-md-3 {
+		width: 25%;
+	}
+
+	.col-md-4 {
+		width: 33%;
+	}
+
+	.col-md-5 {
+		width: 41.66%;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+
+	.col-md-7 {
+		width: 58.33%;
+	}
+
+	.col-md-8 {
+		width: 66.66%;
+	}
+
+	.col-md-9 {
+		width: 74.99%;
+	}
+
+	.col-md-10 {
+		width: 83.33%;
+	}
+
+	.col-md-11 {
+		width: 91.66%;
+	}
+
+	.col-md-12 {
+		width: 100%;
+	}
+
+
+
+	.info-size-md {
+		/* width: 100%; */
+	}
+
+
+	.cabecera-size-md {
+		
+		margin-left: 33%;
+	}
+
+
+
+
+
+
+} 
+
+
+
+
+
+@media (max-width: 767px) {
+
+
+
+	.cabecera-size-lg {
+		
+		margin-left: 10%;
+	}
+
+
+
+
+
+/* Agrupacion de menu flotante de funciones: llamar, wapp, cita y guardar   */
+	.col-ch-3 {
+		float: left;
+		width: 25%;
+	}
+
+	.col-ch-4 {
+		float: left;
+		width: 33%;
+	}
+
+	.col-ch-6 {
+		float: left;
+		width: 50%;
+	}
+}
+
+
+
+/* estilo */
+
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	box-shadow: 0px 0px 2px 1px #C6C5C5;
+	background-color: white;
+}
+
+.cabecera {
+	width: 360px;
+	height: 100px;
+	margin: auto;
+	
+	
+}
+
+.cabecera a:link {
+	color: black;
+}
+
+.cabecera a:visited {
+	color: black;
+}
+.logo-foody {
+	float: left;
+}
+
+.restaurantes-cerca {
+	float: left;
+	padding-left: 19px;
+	padding-top: 7px;
+	
+
+}
+
+.restaurantes-cerca > p{
+	float: left;
+	margin-left: 10px;
+
+}
+
+.restaurantes-cerca > img{
+	float: left;
+
+	
+}
+
+.restaurantes-cerca > button{
+	float: left;
+	margin-left: 5px;
+	width: 45px;
+	height: 18px;
+	background-color: #F04B2D;
+	border-radius: 5px;
+	border-color: #F04B2D;
+	font-size: 10px;
+	color: white;
+	
+	
+}
+
+.buscador {
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+
+
+/* Contenido */
+
+.contenido {
+	clear: both;
+	text-align: center;
+	padding-top: 120px;
+}
+
+.contenido > p {
+	width: 100%;
+	height:30px;
+	background-color: #F04B2D;
+	margin-top: 10px;
+	color: white;
+	padding-top: 7px;
+}
+
+
+
+
+.categorias a:visited {
+	color: black;
+}
+
+.categorias a:link {
+	color: black;
+}
+
+
+
+
+
+/* Categorias  Mariscos*/
+
+.mariscos {
+	width: 375px;
+	height: 250px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+
+.rectangulo-categoria {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	background-color: white;
+	opacity: 80%;
+	left: 100px;
+	top: 100px;
+	border-radius: 15px;
+	
+}
+ .rectangulo-categoria > img {
+ 	float: left;
+ 	margin-top: 8px;
+ 	margin-left: 25px;
+ }
+
+ .rectangulo-categoria > p {
+ 	float: left;
+ 	margin-left: 10px;
+ 	margin-top: 14px;
+ 	font-size: 22px;
+ }
+
+
+
+ /* Categorias  pizza*/
+
+.pizza {
+	width: 375px;
+	height: 250px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	padding-top:5px;
+}
+
+.rectangulo-categoria-pizza {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	background-color: white;
+	opacity: 80%;
+	left: 100px;
+	top: 100px;
+	border-radius: 15px;
+	
+}
+ .rectangulo-categoria-pizza > img {
+ 	float: left;
+ 	margin-top: 8px;
+ 	margin-left: 42px;
+ }
+
+ .rectangulo-categoria-pizza > p {
+ 	float: left;
+ 	margin-left: 10px;
+ 	margin-top: 14px;
+ 	font-size: 22px;
+ }
+
+
+
+/* Categorias  Hamburguesas*/
+
+.hamburguesas {
+	width: 375px;
+	height: 250px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	padding-top:10px;
+}
+
+.rectangulo-categoria-hamburguesas {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	background-color: white;
+	opacity: 80%;
+	left: 100px;
+	top: 100px;
+	border-radius: 15px;
+	
+}
+ .rectangulo-categoria-hamburguesas > img {
+ 	float: left;
+ 	margin-top: 7px;
+ 	margin-left: 18px;
+ }
+
+ .rectangulo-categoria-hamburguesas > p {
+ 	float: left;
+ 	margin-left: 10px;
+ 	margin-top: 18px;
+ 	font-size: 14px;
+ }
+
+
+/*  */
+
+.subtitulo-index {
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+/* footer */
+
+.footer {
+	clear: both;
+	margin-top: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #4B4B4B;
+	color: white;
+}
+
+.footer > p{
+	margin-top: 30px;
+	font-family: arista;
+
+}
+
+.links-footer > a {
+	color: white;
+	padding: 5%;
+}
